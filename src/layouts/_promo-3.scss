@@ -1,0 +1,28 @@
+.promo-3 {
+  padding-top: 180px;
+  padding-bottom: 95px;
+  @include background('start-3-bg.jpg', $white, center, center);
+  background-size: cover;
+  text-align: center;
+  //background-color: transparentize($purple-dark, 0.2);
+  
+  &__title {
+    margin-bottom: 30px;
+    font-weight: lighter;
+    @include font-size-line-height(40px, 48px);
+  }
+
+  &__text {
+    margin: 0 auto 25px;
+    width: 740px;
+    @include font-size-line-height(20px, 33px);
+
+    &--light-purple {
+      color: lighten($purple-dark, 40%);
+    }
+  }
+
+  &__text-comment {
+    margin-top: 15px;
+  }
+}

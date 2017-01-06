@@ -1,0 +1,17 @@
+.promo-2 {
+  padding-top: 145px;
+  padding-bottom: 190px;
+  @include background('start-2-bg.jpg', $pink);
+  background-size: cover;
+  text-align: center;
+
+  &__title {
+    font-weight: lighter;
+    @include font-size-line-height(35px, 60px);
+  }
+
+  &__text {
+    width: 460px;
+    margin: 0 auto 30px;
+  }
+}

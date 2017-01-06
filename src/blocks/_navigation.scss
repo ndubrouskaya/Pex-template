@@ -1,0 +1,31 @@
+.main-nav {
+  float: right;
+
+  &__item {
+    display: inline-block;
+    vertical-align: top;
+    @include font-size-line-height(13px, 24px);
+  }
+  &__link {
+    display: block;
+    padding: 39px 25px;
+
+    &:hover {
+      background-color: transparentize($white, 0.8);
+    }
+
+    &--active {
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 23px;
+        right: 23px;
+        height: 3px;
+        background: $white;
+      }
+    }
+  }
+}

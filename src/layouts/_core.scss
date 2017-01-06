@@ -1,0 +1,16 @@
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+  @include font-size-line-height();
+  color: $white;
+  font-family: $font-sans;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  @include clearfix();
+}

@@ -1,0 +1,23 @@
+.promo-1 {
+  position: relative;
+  padding-top: 375px;
+  padding-bottom: 260px;
+
+  @include background('header-bg.jpg', $blue-dark);
+  background-size: cover;
+
+  &__wrapper {
+    width: 530px;
+    text-align: right;
+  }
+
+  &__title {
+    padding-bottom: 45px;
+    font-weight: normal;
+    @include font-size-line-height(50px, 70px);
+  }
+
+  &__text-comment {
+    margin-top: 15px;
+  }
+}

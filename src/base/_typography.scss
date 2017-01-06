@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+small {
+  display: block;
+  @include font-size-line-height(12px, 17px);
+}
+
+span {
+  vertical-align: top;
+  font-size: 10px;
+  font-style: italic;
+  color: $white;
+}

@@ -1,0 +1,29 @@
+.features {
+  border-top: 1px solid transparentize($white, 0.5);
+  padding-top: 70px;
+  padding-bottom: 80px;
+  background-color: $blue-dark;
+
+  &__wrapper {
+    width: 830px;
+    margin: 0 auto;
+  }
+
+  &__item {
+  display: inline-block;
+  width: 400px;
+  margin-right: 5px;
+  margin-bottom: 60px;
+
+    &--even {
+      margin-right: 0;
+    }
+  }
+
+  &__title {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

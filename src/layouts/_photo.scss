@@ -1,0 +1,25 @@
+.photo {
+  padding-top: 360px;
+  padding-bottom: 65px;
+  @include background('photo-bg.jpg');
+  background-size: cover;
+
+  &__title {
+    width: 540px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    @include font-size-line-height(40px, 50px);
+  }
+
+  &__author-img {
+    border-radius: 50%;
+  }
+
+  &__author-name {
+    margin-left: 15px;
+    vertical-align: top;
+    @include font-size-line-height(13px, 45px);
+    font-weight: bolder;
+  }
+}

@@ -1,0 +1,32 @@
+.search {
+  position: relative;
+  float: right;
+  margin-right: -170px;
+  padding: 29px 0;
+  width: 220px;
+
+  &__input,
+  &__icon {
+    border: none;
+    outline: none;
+  }
+
+ &__input {
+    width: 100%;
+    height: 44px;
+    padding: 10px 30px;
+    border-radius: 22px;
+    line-height: 24px;
+    font: inherit;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 44px;
+    right: 15px;
+    width: 14px;
+    height: 14px;
+    background: url($image-dir + "search.png");
+    cursor: pointer;
+  }
+}

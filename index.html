@@ -6,181 +6,191 @@
     <title>Lorem ipsum</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="build/css/base/reset.css">
+    <link rel="stylesheet" href="build/css/main.css">
 </head>
 
 <body>
-    <header>
-          <div class="header-content clearfix">
+    <div class="wrapper">
+        <div class="promo-1">
             <div class="container">
-
-              <a href="#" class="logo">
-                <img src="images/logo.png" alt="Pex" width="40" height="20" />
-                <span>Photoshop Website template</span>
-              </a>
-
-              <form action="" method="get" class="search">
-                <input type="search" name="search-field" placeholder="Search Website" />
-                <button type="submit"></button>
-              </form>
-
-              <nav class="main-nav">
-                <ul>
-                  <li class="active">
-                    <a href="#">About</a>
-                  </li>
-                  <li>
-                    <a href="#">How It Works</a>
-                  </li>
-                  <li>
-                    <a href="#">Sevices</a>
-                  </li>
-                  <li>
-                    <a href="#">FAQ</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact</a>
-                  </li>
-                </ul>
-              </nav>
-          </div>
-        </div>
-        <div class="container">
-          <div class="block-start-1">
-                <h1>Designs you eyeballs will thank you for</h1>
-                <a href="#" class="btn btn-start">Get Started Today</a>
-                <p><span>Lorem ipsum dolor sit amet, consectetur</span></p>
-            </div>
-        </div>
-    </header>
-
-    <div class="block-features">
-        <div class="container">
-            <div class="features-content">
-                <div class="feature-item">
-                    <h4>A fantastic headings</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-                <div class="feature-item">
-                    <h4>Good day blokes</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-                <div class="feature-item">
-                    <h4>Blaz robar for prezident</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-                <div class="feature-item">
-                    <h4>Vote for robar</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      Ut enim ad minim veniam, quis nostrud</p>
+                <div class="promo-1__wrapper">
+                    <h2 class="promo-1__title">Designs you eyeballs will thank you for</h2>
+                    <a href="#" class="btn btn--purple btn--purple-shadow">Get Started Today</a>
+                    <small class="promo-1__text-comment">Lorem ipsum dolor sit amet, consectetur</small>
                 </div>
             </div>
         </div>
-    </div>
 
-
-    <div class="block-start-2 ">
-        <div class="container">
-            <h2>Wicked &amp; whack, bang bang boo!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut</p>
-            <a href="#" class="btn btn-start-2">Get Started Today</a>
-        </div>
-    </div>
-
-    <div class="block-about bg-left clearfix">
-        <div class="container">
-            <div class="block-about-content column-right">
-                <article>
-                    <h3>A heading is what you need here</h3>
-                    <p>Tempor incididunt ut labore et dolore
-                      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur.</p>
-                    <p>Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </article>
-            </div>
-        </div>
-    </div>
-
-    <div class="block-start-3">
-        <div class="block-start-bg">
+        <header class="header">
             <div class="container">
-                <h2>Experience the rush today</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur
+                <a href="#" class="logo">
+                    <img class="logo__img" src="images/logo.png" alt="Pex" width="40" height="20" />
+                    <span>Photoshop Website template</span>
+                </a>
+
+                <form action="" method="get" class="search">
+                    <input class="search__input" type="search" name="search-field" placeholder="Search Website" />
+                    <button class="search__icon" type="submit"></button>
+                </form>
+
+                <nav class="main-nav">
+                    <ul>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link main-nav__link--active" href="#">About</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">How It Works</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">Sevices</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">FAQ</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="features">
+            <div class="container">
+                <div class="features__wrapper">
+                    <div class="features__item">
+                        <h4 class="features__title">A fantastic headings</h4>
+                        <p class="features__text">Lorem ipsum dolor sit amet,
+                          consectetur adipisicing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud</p>
+                    </div>
+                    <div class="features__item features__item--even">
+                        <h4 class="features__title">Good day blokes</h4>
+                        <p class="features__text">Lorem ipsum dolor sit amet,
+                          consectetur adipisicing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud</p>
+                    </div>
+                    <div class="features__item">
+                        <h4 class="features__title">Blaz robar for prezident</h4>
+                        <p class="features__text">Lorem ipsum dolor sit amet,
+                          consectetur adipisicing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud</p>
+                    </div>
+                    <div class="features__item features__item--even">
+                        <h4 class="features__title">Vote for robar</h4>
+                        <p class="features__text">Lorem ipsum dolor sit amet,
+                          consectetur adipisicing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="promo-2">
+            <div class="container">
+                <h2 class="promo-2__title">Wicked &amp; whack, bang bang boo!</h2>
+                <p class="promo-2__text">Lorem ipsum dolor sit amet, consectetur
                   adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua consectetur adipisicing elit</p>
-                <a href="#" class="btn btn-start">Get Started Today</a>
-                <p><span>Lorem ipsum dolor sit amet, consectetur</span></p>
+                  dolore magna aliqua. Ut</p>
+                <a href="#" class="btn btn--white btn--wide">Get Started Today</a>
             </div>
         </div>
-    </div>
 
-    <div class="block-photo clearfix">
-        <div class="container">
-            <div class="column-left">
-                <a href="#" class="btn btn-photo">Photography</a>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
-                <div class="photo-author">
-                    <img src="images/author.jpg" alt="Blaz Robar" width="45" height="45" />
-                    <a href="#">Blaz Robar, god like web designer</a>
+        <div class="about about--bg-left">
+            <div class="container">
+                <div class="about__wrapper clearfix">
+                    <article class="about__article about__article--right">
+                        <h3 class="about__title">A heading is what you need here</h3>
+                        <p class="about__text--big">Tempor incididunt ut labore et dolore magna aliqua.
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                          laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                          irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur.</p>
+                        <p class="about__text">Excepteur sint occaecat cupidatat non proident,
+                          sunt in culpa qui officia deserunt mollit anim id est
+                          laborum. Sed ut perspiciatis unde omnis iste natus error
+                          sit voluptatem accusantium doloremque laudantium, totam
+                          rem aperiam, eaque ipsa quae ab illo inventore veritatis
+                          et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </article>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="block-about bg-right clearfix">
-        <div class="container">
-            <div class="block-about-content column-left">
-              <h2>About Us</h2>
-                <article>
-                    <h3>A heading is what you need here</h3>
-                    <p>Tempor incididunt ut labore et dolore
-                      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur.</p>
-                    <p>Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </article>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div class="footer-contact-info">
+        <div class="promo-3">
             <div class="container">
-                <h4>Get in touch</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <address>help@yomuna.com</address>
+                <h2 class="promo-3__title">Experience the rush today</h2>
+                <p class="promo-3__text promo-3__text--light-purple">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua consectetur adipisicing elit</p>
+                <a href="#" class="btn btn--purple">Get Started Today</a>
+                <small class="promo-3__text-comment">Lorem ipsum dolor sit amet, consectetur</small>
             </div>
         </div>
 
-        <div class="footer-add-info">
-            <div class="container">
-                <p><span>psum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua</span></p>
+        <div class="photo">
+            <div class="container clearfix">
+                <div class="photo__wrapper">
+                    <a href="#" class="btn btn--transparent btn--narrow">Photography</a>
+                    <h2 class="photo__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+                    <div class="photo__author">
+                        <img class="photo__author-img" src="images/author.jpg" alt="Blaz Robar" width="45" height="45" />
+                        <a class="photo__author-name" href="#">Blaz Robar, god like web designer</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+
+        <div class="about about--bg-right">
+            <div class="container">
+                <div class="about__wrapper clearfix">
+                    <article class="about__article about__article--left">
+                        <h2 class="about__title--special">About Us</h2>
+                        <h3 class="about__title">A heading is what you need here</h3>
+                        <p class="about__text--diff">Tempor incididunt ut labore et dolore magna aliqua.
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                          laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                          irure dolor in reprehenderit in voluptate velit esse
+                          cillumdolore eu fugiat nulla pariatur.</p>
+                        <p class="about__text">Excepteur sint occaecat cupidatat non proident, sunt in
+                          culpa qui officia deserunt mollit anim id est laborum. Sed
+                          t perspiciatis unde omnis iste natus error sit voluptatem
+                          accusantium doloremque laudantium, totam rem aperiam,
+                          eaque ipsa quae ab illo inventore veritatis et quasi
+                          architecto beatae vitae dicta sunt explicabo.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <section  class="footer footer--pink">
+                <div class="contact-info">
+                    <div class="container">
+                        <h4 class="contact-info__title">Get in touch</h4>
+                        <p class="contact-info__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <address class="contact-info__address">help@yomuna.com</address>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer footer--dark">
+                <div class="add-info">
+                    <div class="container">
+                        <small>psum dolor sit amet, consectetur adipisicing elit, sed
+                      do eiusmod tempor incididunt ut labore et dolore magna aliqua</small>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
 </body>
 
 </html>

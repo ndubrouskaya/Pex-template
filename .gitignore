@@ -1,0 +1,5 @@
+#npm build voice
+node_modules
+build
+.idea
+.vscode

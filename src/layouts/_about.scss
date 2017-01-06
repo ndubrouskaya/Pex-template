@@ -1,0 +1,43 @@
+.about {
+  &--bg-left {
+    @include background('about-bg-1.jpg', $white, -185px);
+  }
+  &--bg-right {
+    @include background('about-bg-2.jpg', $white, 900px);
+  }
+
+  &__article {
+    position: relative;
+    width: 660px;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    color: $black;
+
+    &--right {
+      float: right;
+    }
+
+    &--left {
+      float: left;
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &--special {
+      position: absolute;
+      top: 50px;
+      right: 10px;
+      @include font-size-line-height(40px, 60px);
+      font-family: $font-serif;
+      color: $marine-dark;
+    }
+  }
+
+  &__text--big {
+    margin-bottom: 30px;
+    @include font-size-line-height(19px, 31px);
+  }
+}

@@ -1,0 +1,35 @@
+@mixin clearfix {
+  //https://developer.mozilla.org/ru/docs/Web/CSS/::after
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin font-size-line-height($font-size: 15px, $line-height: 26px) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin background($img, $bg-color: $white, $position-x: center, $position-y: top) {
+  background-image: url($image-dir + $img);
+  background-color: $bg-color;
+  background-position: $position-x $position-y;
+  background-repeat: no-repeat;
+}
+
+@mixin button-background($bg-color, $hover-color: darken($bg-color, 10%)) {
+  background-color: $bg-color;
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+@mixin column-right {
+  float: right;
+}
+
+@mixin column-left {
+  float: left;
+}

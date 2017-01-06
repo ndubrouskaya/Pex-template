@@ -1,0 +1,37 @@
+.btn {
+  display: inline-block;
+  padding: 0 60px;
+  border-radius: 30px;
+  @include button-background($white);
+  @include font-size-line-height(18px, 60px);
+  text-align: center;
+  font-weight: bold;
+
+  &--purple {
+    @include button-background($purple);
+    border-top: 1px solid transparentize($white, 0.8);
+
+    &-shadow {
+      box-shadow: 0 1px 1px transparentize($black, 0.5);
+    }
+  }
+
+  &--white {
+    color: $pink;
+  }
+
+  &--wide {
+    padding: 0 90px;
+  }
+
+  &--narrow {
+    padding: 0 25px;
+  }
+
+  &--transparent {
+    @include button-background(transparentize($white, 1), transparentize($white, 0.8));
+    border: 2px solid $white;
+    font-weight: bolder;
+    @include font-size-line-height(13px, 40px);
+  }
+}

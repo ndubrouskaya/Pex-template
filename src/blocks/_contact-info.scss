@@ -1,0 +1,20 @@
+.contact-info {
+  padding-top: 70px;
+  padding-bottom: 220px;
+  @include font-size-line-height(15px, 25px);
+
+  &__title {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    width: 400px;
+    margin-bottom: 25px;
+  }
+
+  &__address {
+    text-decoration: underline;
+    font-style: normal;
+  }
+}
